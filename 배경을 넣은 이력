@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    body{
+        background-image: url('dlalwl.jpg');
+        background-size: 1000px;
+        background-attachment: fixed;
+    }
+</style>
+    <head>
+        <title>2302575 이영주 과제</title>
+    </head>
+    <body>
+        <h1>이력서</h1>
+        <div class="tab_content">
+             <ul>
+                <input type="radio" name="tabmenu" id="신상" checked>
+                <label for "신상">
+                    <li>신상</li>
+                </label>
+                <input type="radio" name="tabmenu" id="학 력 사 항">
+                <label for "학력사항">
+                    <li>학력사항</li>
+                </label>
+                <input type="radio" name="tabmenu" id="자 격 면 허">
+                <label for "자격면허">
+                    <li>자격면허</li>
+                </label>
+                <input type="radio" name="tabmenu" id="경 험 사 항">
+                <label for "경험사항">
+                    <li>경험사항</li>
+                </label>
+             </ul>
+             <audio src="노래.mp3" controls="control"></audio>
+             <video src="동영상.mp4" controls="control" width="100"></video>
+        </div>
+        <div class="신상">
+            <table border="1", width="900">
+                <thead>
+                    <tr>
+                        <p>
+                            <td rowspan="6"><img src="사진.jpg", width="150"</td>
+                            <td rowspan="4" bgcolor="#CECAD8"> 성명 </td>
+                         <tr>
+                            <th>(한글) : 이영주     </th>
+                            <th bgcolor="#CECAD8">지원분야</th>
+                            <th>개발자</th>
+                         </tr>
+                         <tr>
+                            <th>(한자) : 李鍈宙     </th>
+                            <th bgcolor="#CECAD8">연락처</th>
+                            <th>010-7573-9546</th>
+                         </tr>
+                         <tr>
+                            <th>(영어) : Lee YoungJu     </th>
+                            <th bgcolor="#CECAD8">이메일</th>
+                            <th>dudwnfl612@naver.com</th>
+                         </tr>
+                         <tr>
+                            <th bgcolor="#CECAD8"> 생년월일 </th>
+                            <th>2003.06.12</th>
+                            <th bgcolor="#CECAD8">보훈대상</th>
+                            <th>대상 ( ), 비대상 ( )</th>
+                         </tr>
+                         <tr>
+                            <th bgcolor="#CECAD8">주소</th>
+                            <th colspan="4">서울특별시</th>
+                         </tr>
+                        </p>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </body>
+    <body>
+        <div class="학력사항">
+            <table border="1", width="900">
+                <thead>
+                    <p>
+                        <tr>
+                             <td rowspan="5" bgcolor="#CECAD8">학 력 사 항</td>
+                             <tr>
+                                <th bgcolor="#CECAD8">기 간</th>
+                                <th bgcolor="#CECAD8">출 신 학 교</th>
+                                <th bgcolor="#CECAD8">전 공</th>
+                                <th bgcolor="#CECAD8">학 점</th>
+                                <th bgcolor="#CECAD8">졸업여부</th>
+                             </tr>
+                             <tr>
+                                <th>2023.03 ~</th>
+                                <th>한양여자대학교</th>
+                                <th>빅데이터학과</th>
+                                <th> x </th>
+                                <th>재학</th>
+                             </tr>
+                             <tr>
+                                <th>2020.03 ~ 2023.02</th>
+                                <th>한양여자대학교</th>
+                                <th>스마트 IT과</th>
+                                <th>4.31/4.50</th>
+                                <th>졸업</th>
+                             </tr>
+                             <tr>
+                                <th>2016.03 ~ 2019.02</th>
+                                <th>서울디지텍고등학교</th>
+                                <th>유비쿼터스과</th>
+                                <th> x </th>
+                                <th>졸업</th>
+                             </tr>
+                         </tr>
+                    </p>
+                </thead>
+            </table>
+        </div>
+    </body>
+    <body>
+        <div class="자격면허">
+            <table border="1", width="900">
+                <thead>
+                    <tr>
+                        <p>
+                            <td rowspan="4" bgcolor="#CECAD8">자 격 면 허</td>
+                         <tr>
+                            <th bgcolor="#CECAD8">자 격 증( 면 허 ) 명</th>
+                            <th bgcolor="#CECAD8">등 급</th>
+                            <th bgcolor="#CECAD8">취 득 년 월 일</th>
+                            <th bgcolor="#CECAD8">발 행 기 관</th>
+                         </tr>
+                         <tr>
+                            <th>GTQ(그래픽기술자격)</th>
+                            <th>1급</th>
+                            <th>2020.08.22</th>
+                            <th>한국생산성본부</th>
+                         </tr>
+                         <tr>
+                            <th>컴퓨터활용능력</th>
+                            <th>2급</th>
+                            <th>2019.04.26</th>
+                            <th>대한상공회의소 자격평가사업단</th>
+                         </tr>
+                        </p>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </body>
+    <body>
+        <div class="경험사항">
+            <table border="1", width="900">
+                <thead>
+                    <tr>
+                        <p>
+                            <td rowspan="4" bgcolor="#CECAD8">경 험 사 항</td>
+                         <tr>
+                            <th bgcolor="#CECAD8">기 관 명</th>
+                            <th bgcolor="#CECAD8">기 간</th>
+                            <th bgcolor="#CECAD8">업 무 내 용</th>
+                         </tr>
+                         <tr>
+                            <th>한양여자대학교 스마트IT과</th>
+                            <th>2022.03~2022.09</th>
+                            <th>졸업 작품 총관 및 개발 - 프로젝트 마이웨이(My Way) : 챗 봇을 이용한 혼잡도 기반의 지하철 경로 찾기 어플 기획 및 제작 참여 해당 작품으로 공모전 참가</th>
+                         </tr>
+                         <tr>
+                            <th>한국산업인력공단</th>
+                            <th>2016.11.28~2016.12.02</th>
+                            <th>모의 웹디자인에 대한 교육 이수</th>
+                         </tr>
+                        </p>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        </br>
+        </br>
+        <footer>
+            <h1> 이영주 2302575</h1>
+        </footer>
+    </body>
+</html>

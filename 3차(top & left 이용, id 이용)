@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #a {
+                width: 100px; height: 100px;
+                position: absolute;
+                background-color: aqua;
+                left: 50px; top: 50px;
+            }
+            #b {
+                width: 100px; height: 100px;
+                position: absolute;
+                background-color: aquamarine;
+                left: 90px; top: 90px;
+            }
+            #c {
+                width: 100px; height: 100px;
+                position: absolute;
+                background-color: burlywood;
+                left: 130px; top: 130px;
+            }
+            #d {
+                width: 100px; height: 100px;
+                position: absolute;
+                background-color: blueviolet;
+                left: 170px; top: 170px;
+            }
+        </style>
+    </head>
+    <body>
+        봄<div id="a">춘</div>
+        여름<div id="b">하</div>
+        가을<div id="c">추</div>
+        겨울<div id="d">동</div>
+        2302575 이영주
+    </body>
+
+</html>

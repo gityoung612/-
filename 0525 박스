@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                width: 100px; height: 100px;
+                position: absolute;
+            }
+            .box:nth-child(1) {
+                background-color: aqua;
+                left: 10px; right: 10px;
+            }
+            .box:nth-child(2) {
+                background-color: aquamarine;
+                left: 110px; right: 110px;
+            }
+            .box:nth-child(3) {
+                background-color: burlywood;
+                left: 210px; right: 210px;
+            }
+        </style>
+    </head>
+    <body>
+        봄<div class="box">춘</div>
+        여름<div class="box">하</div>
+        가을<div class="box">추</div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                width: 100px; height: 100px;
+                position: absolute;
+            }
+            .box:nth-child(1) {
+                background-color: aqua;
+                left: 50px; top: 50px;
+            }
+            .box:nth-child(2) {
+                background-color: aquamarine;
+                left: 90px; top: 90px;
+            }
+            .box:nth-child(3) {
+                background-color: burlywood;
+                left: 130px; top: 130px;
+            }
+            .box:nth-child(4) {
+                background-color: blueviolet;
+                left: 170px; top: 170px;
+            }
+        </style>
+    </head>
+    <body>
+        봄<div class="box">춘</div>
+        여름<div class="box">하</div>
+        가을<div class="box">추</div>
+        겨울<div class="box">동</div>
+        2302575 이영주
+    </body>
+
+</html>

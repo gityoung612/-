@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <style>
-    body{
-        background-image: url('dlalwl.jpg');
-        background-size: 1000px;
-        background-attachment: fixed;
-    }
-</style>
     <head>
         <title>2302575 이영주 과제</title>
     </head>
@@ -34,7 +27,34 @@
              <audio src="노래.mp3" controls="control"></audio>
              <video src="동영상.mp4" controls="control" width="100"></video>
         </div>
-        <div class="신상">
+        <style>
+            body{
+                background-image: url('dlalwl.jpg');
+                background-size: 1000px;
+                background-attachment: fixed;
+            }
+            #a{
+                font-family: sans-serif;
+                background-color: aqua;
+                width: 900px;
+            }
+            #b{
+                font-family: serif;
+                background-image: url('겨울.jpg');
+                width: 900px;
+            }
+            #c{
+                font-family: cursive;
+                background-color: cadetblue;
+                width: 900px;
+            }
+            #d{
+                font-family: 'Courier New', Courier, monospace;
+                background-image: url('이미지.jpg');
+                width: 900px;
+            }
+        </style>
+        <div class="신상" id="a">
             <table border="1", width="900">
                 <thead>
                     <tr>
@@ -73,18 +93,18 @@
         </div>
     </body>
     <body>
-        <div class="학력사항">
+        <div class="학력사항" id="b">
             <table border="1", width="900">
                 <thead>
                     <p>
                         <tr>
-                             <td rowspan="5" bgcolor="#CECAD8">학 력 사 항</td>
+                             <td rowspan="5" bgcolor="#FF3333">학 력 사 항</td>
                              <tr>
-                                <th bgcolor="#CECAD8">기 간</th>
-                                <th bgcolor="#CECAD8">출 신 학 교</th>
-                                <th bgcolor="#CECAD8">전 공</th>
-                                <th bgcolor="#CECAD8">학 점</th>
-                                <th bgcolor="#CECAD8">졸업여부</th>
+                                <th bgcolor="#FF3333">기 간</th>
+                                <th bgcolor="#FF3333">출 신 학 교</th>
+                                <th bgcolor="#FF3333">전 공</th>
+                                <th bgcolor="#FF3333">학 점</th>
+                                <th bgcolor="#FF3333">졸업여부</th>
                              </tr>
                              <tr>
                                 <th>2023.03 ~</th>
@@ -114,17 +134,17 @@
         </div>
     </body>
     <body>
-        <div class="자격면허">
+        <div class="자격면허" id="c">
             <table border="1", width="900">
                 <thead>
                     <tr>
                         <p>
-                            <td rowspan="4" bgcolor="#CECAD8">자 격 면 허</td>
+                            <td rowspan="4" bgcolor="#FFFF00">자 격 면 허</td>
                          <tr>
-                            <th bgcolor="#CECAD8">자 격 증( 면 허 ) 명</th>
-                            <th bgcolor="#CECAD8">등 급</th>
-                            <th bgcolor="#CECAD8">취 득 년 월 일</th>
-                            <th bgcolor="#CECAD8">발 행 기 관</th>
+                            <th bgcolor="#FFFF00">자 격 증( 면 허 ) 명</th>
+                            <th bgcolor="#FFFF00">등 급</th>
+                            <th bgcolor="#FFFF00">취 득 년 월 일</th>
+                            <th bgcolor="#FFFF00">발 행 기 관</th>
                          </tr>
                          <tr>
                             <th>GTQ(그래픽기술자격)</th>
@@ -145,16 +165,16 @@
         </div>
     </body>
     <body>
-        <div class="경험사항">
+        <div class="경험사항" id="d">
             <table border="1", width="900">
                 <thead>
                     <tr>
                         <p>
-                            <td rowspan="4" bgcolor="#CECAD8">경 험 사 항</td>
+                            <td rowspan="4" bgcolor="#3333CC">경 험 사 항</td>
                          <tr>
-                            <th bgcolor="#CECAD8">기 관 명</th>
-                            <th bgcolor="#CECAD8">기 간</th>
-                            <th bgcolor="#CECAD8">업 무 내 용</th>
+                            <th bgcolor="#3333CC">기 관 명</th>
+                            <th bgcolor="#3333CC">기 간</th>
+                            <th bgcolor="#3333CC">업 무 내 용</th>
                          </tr>
                          <tr>
                             <th>한양여자대학교 스마트IT과</th>

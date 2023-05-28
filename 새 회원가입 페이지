@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입 페이지</title>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="username">이름</label></td>
+                    <td><input id="username" type="text" name="username"></td>
+                </tr>
+                <style>
+                     input:hover{ background-color: aqua; }
+                </style>
+
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        <input id="woman" type="radio" name="gender1" value="w" checked="checked">
+                        <label for="woman">여자</label>
+                        <input id="man" type="radio" name="gender2" value="m">
+                        <label for="man">남자</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="brith">생년월일 음력</lable>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="년(4자)" name="year" />
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <input type="text" placeholder="일" name="day" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="brith">생년월일 양력</lable>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="년(4자)" name="year" />
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <input type="text" placeholder="일" name="day" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="age">나이</lable>
+                        <input type="text" placeholder="나이" name="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="place">주소</lable>
+                        <input type="text" placeholder="주소" name="place">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="brith">생년월일</lable>
+                    </td>
+                    <td>
+                        <select>
+                            <option>가입한 이유1</option>
+                            <option>가입한 이유2</option>
+                            <option>가입한 이유3</option>
+                            <option>가입한 이유4</option>
+                            <option>가입한 이유5</option>
+                            <option>가입한 이유6</option>
+                            <option>가입한 이유7</option>
+                            <option>기타</option>
+                        </select>
+                        <input type="text" placeholder="기 타" name="reason" />
+                     </td>
+                </tr>
+            </table>
+            
+            <input type="submit", value="가입하기">
+        </form>
+    </br>
+    <footer>
+        <h1> 이영주 2302575</h1>
+    </footer>
+    </body>
+</html>

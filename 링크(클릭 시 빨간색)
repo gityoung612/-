@@ -16,7 +16,16 @@
         font-weight: bold;
         display: block;
         line-height: 70px; }
-
+    #c{ font-size: 1.3cm; 
+        font-style: italic;
+        font-weight: bold;
+        display: block;
+        line-height: 70px; }
+    #d{ font-size: 1.3cm; 
+        font-style: italic;
+        font-weight: bold;
+        display: block;
+        line-height: 70px; }
 </style>
 </head>
 <body>
@@ -29,8 +38,11 @@
 <div id="c">
     <a href="file:///C:/Users/dudwn/Desktop/%EB%8C%80%ED%95%99/%EC%9B%B9%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EC%83%88%20%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%20%EA%B3%BC%EC%A0%9C.HTML">회원가입 페이지</a>
 </div>
+<div id="d">
+    <a href="file:///C:/Users/dudwn/Desktop/%EB%8C%80%ED%95%99/%EC%9B%B9%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EC%83%88%20%EA%B3%BC%EC%A0%9C%20%ED%8C%8C%EC%9D%BC.HTML">한 파일로 만들기</a>
+</div>
 </body>
 <body>
-<h1>2302575 이영주</h1>
+<h1>한양여대 2302575 이영주</h1>
 </body>
 </html>

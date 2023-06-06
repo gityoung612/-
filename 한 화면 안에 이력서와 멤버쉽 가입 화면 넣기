@@ -209,9 +209,9 @@
                     <tr>
                         <td>성별</td>
                         <td>
-                            <input id="woman" type="radio" name="gender1" value="w" checked="checked">
+                            <input id="woman" type="radio" name="gender" value="w" checked="checked">
                             <label for="woman">여자</label>
-                            <input id="man" type="radio" name="gender2" value="m">
+                            <input id="man" type="radio" name="gender" value="m">
                             <label for="man">남자</label>
                         </td>
                     </tr>
